@@ -1,6 +1,6 @@
 import React from 'react';
-import {View,Text,Button,Pressable, ScrollView} from 'react-native';
-import {Header,Card,Icon } from 'react-native-elements';
+import {View} from 'react-native';
+import {Header} from 'react-native-elements';
 import styles from "./Style";
 
 const  Headercomponent = () => {
@@ -13,7 +13,6 @@ const  Headercomponent = () => {
                     rightComponent={{ icon: 'search', color: '#fff' }}
                     containerStyle={styles.headerContainer}
                     />
-              
             </View>
     )
 }

@@ -1,19 +1,21 @@
 import React from 'react';
-import {View,Text} from 'react-native';
+import {View,Text,Pressable} from 'react-native';
 
 import { Card } from 'react-native-elements';
 import styles from './Style'
+import Category from './CategoryComponent';
 
 const Banner = () => {
     return (
-        <View style={styles.bannerContainer}>
-                  <Card>
-                        <Card.Image source={require('../assets/bg.png')}>
-                                <Text style={{marginBottom: 10}}>
-                                The idea with React Native Elements is more about component structure than actual design.
-                                </Text>
+         <View>
+
+             {/* banner Card */}
+                  <Card containerStyle={styles.bannerContainer}>
+                        <Card.Image containerStyle={styles.cardImage}  source={require('../assets/banner-6.png')}>
+                            <Text style={styles.bannerText}>Indian New Release. </Text>
                         </Card.Image>
                   </Card> 
+                  <Category/>
         </View>
     )
 }
