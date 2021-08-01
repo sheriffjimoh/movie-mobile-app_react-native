@@ -11,8 +11,7 @@ export default StyleSheet.create({
         flex:1,
         backgroundColor: '#15172B',
         width:width,
-        height:height,
-
+        height:height
       },
       backgroundImage:{
           flex:1,
@@ -21,8 +20,10 @@ export default StyleSheet.create({
           resizeMode:'cover'
       },
       headerContainer:{
-          top:10,
           width:'100%',
+          backgroundColor: '#15172B',
+          paddingTop:20
+         
       },
       buttonGroup:{
           flexDirection:"row",
@@ -40,8 +41,15 @@ export default StyleSheet.create({
          fontSize:23,
          padding:10
 
-     }
+     },
 
+    //  Banner styles
+
+    bannerContainer:{
+      padding:0,
+      width:'100%',
+      flex:1
+    }
 
 });
 
