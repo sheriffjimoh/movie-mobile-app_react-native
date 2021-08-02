@@ -21,7 +21,28 @@ const Main = () => {
                   </Card>
                   <Card containerStyle={styles.cards}>
                         <Card.Image source={require('../assets/banner-1.jpg')}></Card.Image>
-                        <Text style={styles.cardText}>The idea with React Native Elements .</Text>
+                        <Text style={styles.cardText}>Black Movie.</Text>
+                  </Card>
+
+                  <Card containerStyle={styles.cards}>
+                        <Card.Image source={require('../assets/banner-1.jpg')}></Card.Image>
+                        <Text style={styles.cardText}>Black Movie.</Text>
+                  </Card>
+                  <Card containerStyle={styles.cards}>
+                        <Card.Image source={require('../assets/banner-2.jpg')}></Card.Image>
+                        <Text style={styles.cardText}>Black Movie.</Text>
+                  </Card>
+                  <Card containerStyle={styles.cards}>
+                        <Card.Image source={require('../assets/fast.jpg')}></Card.Image>
+                        <Text style={styles.cardText}>Fast & Furious.</Text>
+                  </Card>
+                  <Card containerStyle={styles.cards}>
+                        <Card.Image source={require('../assets/banner-3.jpg')}></Card.Image>
+                        <Text style={styles.cardText}>Black Movie.</Text>
+                  </Card>
+                  <Card containerStyle={styles.cards}>
+                        <Card.Image source={require('../assets/banner-1.jpg')}></Card.Image>
+                        <Text style={styles.cardText}>Black Movie.</Text>
                   </Card>
                   
             </View>

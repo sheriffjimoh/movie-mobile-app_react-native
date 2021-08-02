@@ -27,13 +27,13 @@ const Category = () => {
 
                            <Pressable style={[styles.pressable, (activedCategory == 'yorubamovie' ? styles.activePressed : ' ')]} 
                             onPress={() => { setactivedCategory('yorubamovie'); setPressed('true'); } } >
-                                <Text style={styles.pressableText}>Yoruba Film</Text>
+                                <Text style={styles.pressableText}>Yoruba Films</Text>
                             </Pressable>
 
                          
                            <Pressable style={[styles.pressable, (activedCategory == 'actionfilm' ? styles.activePressed : ' ')]} 
                             onPress={() => { setactivedCategory('actionfilm'); setPressed('true'); } } >
-                                <Text style={styles.pressableText}>Action Film</Text>
+                                <Text style={styles.pressableText}>Action Films</Text>
                             </Pressable>
 
                             
