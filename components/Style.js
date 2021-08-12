@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet } from 'react-native';
 import { Dimensions } from "react-native";
 
 var width = Dimensions.get('window').width; //full width
@@ -17,12 +17,13 @@ export default StyleSheet.create({
           flex:1,
           width:'100%',
           height:'100%',
-          resizeMode:'cover'
+          resizeMode:'cover',
+          backgroundColor: '#15172B'
       },
       headerContainer:{
           width:'100%',
           backgroundColor: '#15172B',
-          paddingTop:20
+          paddingTop:17
          
       },
       buttonGroup:{
@@ -54,7 +55,7 @@ export default StyleSheet.create({
       width:'100%',
       margin:0,
       padding:0,
-      backgroundColor:'red',
+      backgroundColor: '#15172B',
       borderWidth:0,
       },
       cardImage:{
@@ -92,7 +93,9 @@ export default StyleSheet.create({
 
     mainContainer:{
     marginRight:0,
-    marginLeft:0
+    marginLeft:0,
+    height:'100%',
+    flex:1
     },
     rowContainer:{
       flex:3,
@@ -113,6 +116,16 @@ export default StyleSheet.create({
         padding:5,
         top:3,
         bottom:3
+    },
+    textInput:{
+        justifyContent:'center',
+        textAlign:'center',
+        backgroundColor:'#fff',
+        width:250,
+        padding:10,
+        borderRadius:30,
+        marginLeft:5,
+        marginTop:-5
     }
    
 
