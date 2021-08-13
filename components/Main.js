@@ -12,14 +12,14 @@ import Customicon  from './IconComponent';
 
 console.log(MoviesRecord)
 // Header right
-export function Test(){
+export function MainCustomHeaderStyles(){
     return ( {   
         headerStyle: {
         backgroundColor:"#15172B",
         },
         headerTintColor: '#fff',
         title:"Browse",
-        headerRight:() => (<Customicon iconName={'search'} iconColor='#fff'/> ),
+        // headerRight:() => (<Customicon iconName={'search'} iconColor='#fff'/> ),
         } ) 
 }
 const Main = ({navigation}) => {

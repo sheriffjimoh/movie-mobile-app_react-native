@@ -6,7 +6,6 @@ import Customicon  from './IconComponent';
 
 
 const  Headercomponent = (props) => {
-
         const [isSet, setIt] = useState(false);
         const toggleSearch = ()=>{ 
                 const  issetValue = (isSet ? false : true);

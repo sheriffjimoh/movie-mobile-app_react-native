@@ -126,8 +126,94 @@ export default StyleSheet.create({
         borderRadius:30,
         marginLeft:5,
         marginTop:-5
-    }
+    },
    
+
+    // drawer styles
+
+    DrawerContent:{
+        width:'100%',
+        height:'100%',
+    },
+   TopName:{
+    backgroundColor:'#15172B',
+    padding:15,
+    alignContent:'center',
+    alignItems:'center',
+    },
+    BrandName:{
+        color:'#fff',
+        alignContent:'center',
+        fontSize:30,
+        fontFamily:'Baskerville-SemiBoldItalic'
+    },
+    AppVersion:{
+        color:'#fff',  
+    },
+    DrawerInnerContent:{
+        // marginLeft:20
+    },
+    TopUser:{
+        padding:10,
+        marginLeft:10,
+    },
+    UserName:{
+        fontSize:20,
+        paddingBottom:4,
+        fontWeight:'bold'
+    },
+    UserEmail:{
+        fontSize:15,
+        color:'#ccc',
+        paddingLeft:4
+    },
+
+    NavList:{
+        padding:10,
+        marginLeft:10,
+    },
+    ListItems:{
+        flex:1,
+        flexDirection:'row',
+        paddingBottom:10
+     },
+     ListItemsText:{
+         paddingTop:5,
+         paddingLeft:6
+     },
+     Category:{
+         top:60,
+         
+     },
+     CategoryHeader:{
+         fontSize:20,
+         fontWeight:'bold',
+         fontFamily:'Arial',
+         paddingBottom:10,
+         marginLeft:20,
+     },
+     DrawerCategoriesBox:{
+         paddingTop:10,
+         marginLeft:20,
+     },
+     CategoriesItem:{
+        fontSize:18,
+        paddingBottom:10
+     },
+     DrawerBottom:{
+        // backgroundColor:'#15172B',
+        padding:15,
+        alignContent:'center',
+        alignItems:'center',
+     },
+     BottomLogout:{
+        flexDirection:'row',
+        padding:10,
+     },
+     LogoutText:{
+         paddingTop:3,
+         paddingLeft:6
+     }
 
 });
 
